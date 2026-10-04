@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material 3 Expressive theme (material-components 1.14.0+).
+         Dynamic colour is applied at runtime in MainActivity.
+         Google Sans Flex is applied as the app-wide typeface. -->
+    <style name="Theme.SaveOnDevice" parent="Theme.Material3Expressive.DayNight.NoActionBar">
+        <item name="android:windowBackground">?attr/colorSurface</item>
+
+        <item name="android:fontFamily">@font/gsans</item>
+        <item name="fontFamily">@font/gsans</item>
+
+        <item name="textAppearanceDisplaySmall">@style/TextAppearance.SaveOnDevice.DisplaySmall</item>
+        <item name="textAppearanceHeadlineSmall">@style/TextAppearance.SaveOnDevice.HeadlineSmall</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.SaveOnDevice.TitleLarge</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.SaveOnDevice.TitleMedium</item>
+        <item name="textAppearanceTitleSmall">@style/TextAppearance.SaveOnDevice.TitleSmall</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.SaveOnDevice.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.SaveOnDevice.BodyMedium</item>
+        <item name="textAppearanceBodySmall">@style/TextAppearance.SaveOnDevice.BodySmall</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.SaveOnDevice.LabelLarge</item>
+        <item name="textAppearanceLabelMedium">@style/TextAppearance.SaveOnDevice.LabelMedium</item>
+        <item name="textAppearanceLabelSmall">@style/TextAppearance.SaveOnDevice.LabelSmall</item>
+    </style>
+
+    <!-- App typeface, one style per Material text role so every component picks it up. -->
+    <style name="TextAppearance.SaveOnDevice.DisplaySmall" parent="TextAppearance.Material3.DisplaySmall">
+        <item name="android:fontFamily">@font/gsans</item>
+    </style>
+    <style name="TextAppearance.SaveOnDevice.HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:fontFamily">@font/gsans</item>
+    </style>
+    <style name="TextAppearance.SaveOnDevice.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:fontFamily">@font/gsans</item>
+    </style>
+    <style name="TextAppearance.SaveOnDevice.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:fontFamily">@font/gsans</item>
+    </style>
+    <style name="TextAppearance.SaveOnDevice.TitleSmall" parent="TextAppearance.Material3.TitleSmall">
+        <item name="android:fontFamily">@font/gsans</item>
+    </style>
+    <style name="TextAppearance.SaveOnDevice.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:fontFamily">@font/gsans</item>
+    </style>
+    <style name="TextAppearance.SaveOnDevice.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:fontFamily">@font/gsans</item>
+    </style>
+    <style name="TextAppearance.SaveOnDevice.BodySmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:fontFamily">@font/gsans</item>
+    </style>
+    <style name="TextAppearance.SaveOnDevice.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:fontFamily">@font/gsans</item>
+    </style>
+    <style name="TextAppearance.SaveOnDevice.LabelMedium" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:fontFamily">@font/gsans</item>
+    </style>
+    <style name="TextAppearance.SaveOnDevice.LabelSmall" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:fontFamily">@font/gsans</item>
+    </style>
+
+    <!-- Transparent, animation-less window used by the share target so the Save file composer
+         appears over the app the file was shared from. -->
+    <style name="Theme.SaveOnDevice.Transparent" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowAnimationStyle">@style/Animation.SaveOnDevice.None</item>
+    </style>
+
+    <style name="Animation.SaveOnDevice.None" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+    </style>
+
+    <!-- Dark quick-capture composer: near-black sheet, charcoal panel, muted text. -->
+    <style name="Theme.SaveOnDevice.BottomSheet" parent="Theme.Material3.Dark.BottomSheetDialog">
+        <item name="bottomSheetDialogTheme">@style/Theme.SaveOnDevice.BottomSheet</item>
+        <item name="colorSurface">@color/sheet_background</item>
+        <item name="colorSurfaceContainerLow">@color/sheet_surface_container</item>
+        <item name="colorSurfaceContainer">@color/sheet_surface_container</item>
+        <item name="colorSurfaceContainerHigh">@color/sheet_surface_container</item>
+        <item name="colorSurfaceContainerHighest">@color/sheet_surface_container</item>
+        <item name="colorOnSurface">@color/sheet_on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/sheet_on_surface_variant</item>
+        <item name="colorOutline">@color/sheet_outline</item>
+        <item name="colorOutlineVariant">@color/sheet_outline</item>
+
+        <item name="android:fontFamily">@font/gsans</item>
+        <item name="fontFamily">@font/gsans</item>
+
+        <item name="textAppearanceDisplaySmall">@style/TextAppearance.SaveOnDevice.DisplaySmall</item>
+        <item name="textAppearanceHeadlineSmall">@style/TextAppearance.SaveOnDevice.HeadlineSmall</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.SaveOnDevice.TitleLarge</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.SaveOnDevice.TitleMedium</item>
+        <item name="textAppearanceTitleSmall">@style/TextAppearance.SaveOnDevice.TitleSmall</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.SaveOnDevice.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.SaveOnDevice.BodyMedium</item>
+        <item name="textAppearanceBodySmall">@style/TextAppearance.SaveOnDevice.BodySmall</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.SaveOnDevice.LabelLarge</item>
+        <item name="textAppearanceLabelMedium">@style/TextAppearance.SaveOnDevice.LabelMedium</item>
+        <item name="textAppearanceLabelSmall">@style/TextAppearance.SaveOnDevice.LabelSmall</item>
+    </style>
+</resources>

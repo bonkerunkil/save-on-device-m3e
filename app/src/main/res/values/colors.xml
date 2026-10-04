@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#36577F</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Save-file composer palette: near-black background, charcoal panel -->
+    <color name="sheet_background">#0B0B0E</color>
+    <color name="sheet_surface">#17171B</color>
+    <color name="sheet_surface_container">#1C1C21</color>
+    <color name="sheet_on_surface">#F3F3F5</color>
+    <color name="sheet_on_surface_variant">#9E9EA6</color>
+    <color name="sheet_outline">#2C2C33</color>
+</resources>

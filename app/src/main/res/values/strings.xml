@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Save On Device</string>
+    <string name="app_intent_filter_description">Save on device</string>
+    <string name="unsupported_mimetype">Unsupported mimeType</string>
+    <string name="multiSaveInfo">Sharing several files at once opens a single panel. Choose which files to save, pick one folder, and they all go there together — no more one popup per file.</string>
+    <string name="oldAndroidInfo">This version of Android cannot save all files at once, so files are saved one at a time.</string>
+    <string name="switchText">Save multiple files individually</string>
+
+    <string name="nav_home">Save</string>
+    <string name="nav_locations">Locations</string>
+    <string name="nav_about">About</string>
+    <string name="nav_appearance">Appearance</string>
+
+    <string name="hero_title">Save On Device</string>
+    <string name="hero_subtitle">Material 3 Expressive edition</string>
+    <string name="hero_body">Share a file or copied text to this app and choose exactly where it lands on your device.</string>
+
+    <string name="settings_header">Saving behaviour</string>
+    <string name="add_location">Add a save location</string>
+    <string name="location_added">Added: %1$s</string>
+
+    <!-- Pinned folders -->
+    <string name="pinned_header">Pinned folders</string>
+    <string name="pinned_subtitle">Pinned folders show up as quick buttons whenever you save.</string>
+    <string name="pinned_empty">No pinned folders yet. Pin one to reach it in a single tap.</string>
+    <string name="pin_folder">Pin a folder</string>
+    <string name="pinned_reorder_hint">Long-press a folder to reorder</string>
+    <string name="pinned_added">Pinned: %1$s</string>
+    <string name="pinned_exists">Already pinned: %1$s</string>
+    <string name="unpin">Unpin</string>
+
+    <string name="locations_header">Where your files are saved</string>
+    <string name="locations_subtitle">Folders you have saved files into, or added as save locations.</string>
+    <string name="locations_empty">No locations yet. Save a file, or pin a folder from the Save tab.</string>
+    <string name="clear_locations">Clear list</string>
+    <string name="location_meta">%1$d file(s) \u00b7 last used %2$s</string>
+
+    <!-- Save-file composer -->
+    <string name="save_file_title">Save file</string>
+    <string name="save_files_title">Save files</string>
+    <string name="file_name_hint">File name</string>
+    <string name="change_location">Change location</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="no_location">No location chosen</string>
+    <string name="tap_to_choose">Tap to choose a folder</string>
+    <string name="internal_storage">Internal storage</string>
+    <string name="available_space">%1$s available</string>
+    <string name="unknown_type">File</string>
+    <string name="error_name">Enter a file name</string>
+    <string name="saved_to">Saved to %1$s</string>
+    <string name="saved">Saved</string>
+    <string name="save_failed">Couldn\'t save the file</string>
+
+    <string name="loc_downloads">Downloads</string>
+    <string name="loc_documents">Documents</string>
+    <string name="loc_pictures">Pictures</string>
+    <string name="loc_movies">Movies</string>
+    <string name="loc_music">Music</string>
+
+    <!-- Multiple files in one panel -->
+    <string name="multi_files_more">%1$s  +%2$d</string>
+    <string name="multi_files_subtitle">Tap to choose which files to save</string>
+    <string name="select_all">Select all</string>
+    <string name="clear_all">Clear all</string>
+    <string name="selected_count">%1$d of %2$d selected</string>
+    <string name="error_no_files">Select at least one file</string>
+    <string name="saved_files_to">Saved %1$d files to %2$s</string>
+
+    <!-- Appearance -->
+    <string name="appearance_title">Appearance</string>
+    <string name="appearance_subtitle">Theme, accent colour and shape.</string>
+    <string name="theme_header">THEME</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_black">Pitch black</string>
+    <string name="theme_black_note">Pitch black uses a true black background, which also saves power on OLED screens.</string>
+    <string name="accent_header">ACCENT COLOUR</string>
+    <string name="hex_hint">Custom hex (#RRGGBB)</string>
+    <string name="apply_hex">Apply colour</string>
+    <string name="error_hex">Enter a hex colour like #4C8DFF</string>
+    <string name="shape_header">SHAPE</string>
+    <string name="rounded_switch">Rounder corners</string>
+    <string name="rounded_note">Makes buttons, cards and folder buttons fully rounded instead of squarish.</string>
+
+    <!-- Credits -->
+    <string name="credits_title">Credits</string>
+    <string name="version_label">Version %1$s</string>
+    <string name="original_app_title">ORIGINAL APP</string>
+    <string name="original_app_name">Save On Device</string>
+    <string name="original_author">Created by Landan Jackson (lmj0011)</string>
+    <string name="original_license">Licensed under the Apache License 2.0</string>
+    <string name="original_repo_button">Original project on GitHub</string>
+    <string name="fork_title">THIS FORK</string>
+    <string name="fork_author">BonkerUnkil (Bonki)</string>
+    <string name="fork_role">Fork developer \u00b7 maintained independently</string>
+    <string name="fork_telegram">Telegram \u00b7 @BonkerUnkilBonki</string>
+    <string name="fork_github">GitHub \u00b7 BonkerUnkilBonki</string>
+    <string name="whats_new_title">WHAT\'S NEW IN THIS FORK</string>
+    <string name="whats_new_body">\u2022 Material 3 Expressive design\n\u2022 A Save file composer that shows the exact destination before saving\n\u2022 Share many files at once and pick which ones to save in one scrollable list\n\u2022 Pin your own folders so any folder is one tap away\n\u2022 Long-press the folder buttons to reorder them, built-in folders included\n\u2022 Bottom navigation: Save, Locations and About\n\u2022 The composer opens over the app you shared from, instead of switching apps\n\u2022 Save locations are remembered with file counts and last-used dates</string>
+    <string name="license_note">Save On Device is free software under the Apache License 2.0. The original app was created by Landan Jackson; this fork keeps the same licence and adds the features listed above.</string>
+</resources>
